@@ -60,7 +60,7 @@ The dataset consists of labeled lung cancer images divided into three categories
 - **Validation Accuracy:** ~92%
 - **Test F1-score:** 0.91
 
-Confusion Matrix and ROC-AUC curves are provided for detailed analysis.
+
 
 ---
 
