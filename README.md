@@ -31,3 +31,45 @@ The dataset consists of labeled lung cancer images divided into three categories
 
 ----
 
+## Tools & Libraries
+
+- Python
+- TensorFlow / Keras
+- NumPy, Matplotlib, Seaborn
+- EfficientNet from `tensorflow.keras.applications`
+
+---
+
+##  Training Details
+
+| Metric               | Value               |
+|----------------------|---------------------|
+| Optimizer            | Adam                |
+| Loss Function        | Categorical Crossentropy |
+| Final Activation     | Softmax             |
+| Hidden Activation    | ReLU                |
+| Batch Size           | 32                  |
+| Epochs               | 25–50               |
+| Evaluation Metrics   | Accuracy, Precision, Recall, F1-score |
+
+---
+
+## Sample Results
+
+- **Training Accuracy:** ~96%
+- **Validation Accuracy:** ~92%
+- **Test F1-score:** 0.91
+
+Confusion Matrix and ROC-AUC curves are provided for detailed analysis.
+
+---
+
+##  Example Predictions
+
+| Actual | Predicted | Confidence |
+|--------|-----------|------------|
+| ACA    | ACA       | 98%        |
+| SCC    | N         | 96%        |
+| N      | N         | 99%        |
+
+---
